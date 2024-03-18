@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.games-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.games-card {
+  border: 1px grey solid;
+  border-radius: 5px;
+  padding: 1rem;
+  flex: 0 0 calc(33.3333% - 10px);
+  box-sizing: border-box;
+  position: relative;
+  padding: 1rem;
+}
+
+.games-edit-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.game-edit-card {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.game-edit-card button {
+  margin-top: 0.5rem;
+}
